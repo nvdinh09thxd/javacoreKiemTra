@@ -3,7 +3,7 @@ package bean;
 public class TheSong {
 	int id;
 	String name;
-	String date_create;
+	String dateCreate;
 	int view;
 
 	public int getId() {
@@ -22,12 +22,12 @@ public class TheSong {
 		this.name = name;
 	}
 
-	public String getDate_create() {
-		return date_create;
+	public String getDateCreate() {
+		return dateCreate;
 	}
 
-	public void setDate_create(String date_create) {
-		this.date_create = date_create;
+	public void setDateCreate(String dateCreate) {
+		this.dateCreate = dateCreate;
 	}
 
 	public int getView() {
@@ -38,11 +38,11 @@ public class TheSong {
 		this.view = view;
 	}
 
-	public TheSong(int id, String name, String date_create, int view) {
+	public TheSong(int id, String name, String dateCreate, int view) {
 		super();
 		this.id = id;
 		this.name = name;
-		this.date_create = date_create;
+		this.dateCreate = dateCreate;
 		this.view = view;
 	}
 
@@ -52,7 +52,7 @@ public class TheSong {
 
 	@Override
 	public String toString() {
-		return "id = " + id + "\nname = " + name + "\ndate_create = " + date_create + "\nview = " + view;
+		return "id = " + id + "\nname = " + name + "\ndateCreate = " + dateCreate + "\nview = " + view;
 	}
 
 }
